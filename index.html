@@ -43,6 +43,10 @@
 			color: white
 		}
 
+		.skills {
+			padding-left: 50px
+		}
+
 		h1 {
 			text-align: center;
 		}
@@ -50,7 +54,8 @@
 		table {
 			background: #1abc9c;
 			color: #111111;
-			width: 100%
+			width: 100%;
+			padding-left: 50px
 		}
 
 		thead {
@@ -66,7 +71,8 @@
 			background: blue
 		}
 
-		.alabama {
+		.alabama,
+		.mainz {
 			color: white;
 			background: red
 		}
@@ -77,7 +83,17 @@
 		}
 
 		.newyork {
-			bac
+			color: white;
+			background: gray
+		}
+
+		.italy {
+			color: white;
+			background: green
+		}
+
+		.wiesbaden {
+			background: yellow
 		}
 
 		#timeline {
@@ -103,7 +119,7 @@
 		<table id="timeline">
 			<thead>
 				<tr class="top">
-					<th class="year"></th>
+					<th class="year"> </th>
 					<th class="de"></th>
 					<th class="us"></th>
 					<th class="de"></th>
@@ -217,13 +233,19 @@
 				</tr>
 				<tr>
 					<td>-</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="newyork" rowspan="2">Abitur</td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 				<tr>
 					<td class="year">2015</td>
 					<td></td>
 					<td></td>
 					<td></td>
-					<td class="newyork">Abitur</td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -266,7 +288,7 @@
 					<td></td>
 					<td></td>
 					<td></td>
-					<td>Studium und Ausbildung</td>
+					<td class="wiesbaden">Studium und Ausbildung</td>
 				</tr>
 				<tbody />
 		</table>
@@ -274,27 +296,29 @@
 	<div class="title">
 		<h1>Kenntnisse & Fähigkeiten</h1>
 	</div>
-	<p>
-		<h3>Sprachen</h3>
-		<ul>
-			<li>Deutsch</li>
-			<li>Englisch</li>
-		</ul>
-		<h3>Computer</h3>
-		<ul>
-			<li>Swift</li>
-			<li>Java</li>
-			<li>C</li>
-			<li>JavaScript/React-Native</li>
-		</ul>
-		<h3>Sonstiges</h3>
-		<ul>
-			<li>Sketch</li>
-			<li>Photoshop</li>
-			<li>Illustrator</li>
-			<li>Final Cut Pro</li>
-		</ul>
-	</p>
+	<div class="skills">
+		<p>
+			<h3>Sprachen</h3>
+			<ul>
+				<li>Deutsch</li>
+				<li>Englisch</li>
+			</ul>
+			<h3>Computer</h3>
+			<ul>
+				<li>Swift</li>
+				<li>Java</li>
+				<li>C</li>
+				<li>JavaScript/React-Native</li>
+			</ul>
+			<h3>Sonstiges</h3>
+			<ul>
+				<li>Sketch</li>
+				<li>Photoshop</li>
+				<li>Illustrator</li>
+				<li>Final Cut Pro</li>
+			</ul>
+		</p>
+	</div>
 </body>
 
 </html>
