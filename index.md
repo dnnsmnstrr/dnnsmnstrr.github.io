@@ -1,5 +1,5 @@
 
-# [My Projects](https://github.com/dnnsmnstrr/dnnsmnstrr.github.io/myprojects)
+# [My Projects](https://github.com/dnnsmnstrr/dnnsmnstrr.github.io/myprojects/)
 
 - ## [Lebenslauf](lebenslauf.html)
 An assignment, I made an [HTML version of my CV](lebenslauf.html).
