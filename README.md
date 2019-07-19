@@ -1,8 +1,8 @@
-# muensterer.tech or dnnsmnstrr.github.io
+# muensterer.tech
 
 https://muensterer.tech
 
-https://dnnsmnstrr.github.io
+(formerly https://dnnsmnstrr.github.io)
 
 # project pages:
 
