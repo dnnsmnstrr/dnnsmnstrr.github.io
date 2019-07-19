@@ -1,1 +1,3 @@
+name: Dennis Muensterer
 theme: jekyll-theme-cayman
+permalink: /blog/:year/:month/:day/:title
