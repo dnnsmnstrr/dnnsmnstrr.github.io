@@ -1,6 +1,4 @@
-# muensterer.xyz
-
-https://muensterer.xyz
+# [muensterer.xyz](https://muensterer.xyz)
 
 (formerly muensterer.tech & https://dnnsmnstrr.github.io)
 
