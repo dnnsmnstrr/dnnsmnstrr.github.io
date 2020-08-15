@@ -6,14 +6,15 @@ __Dennis Münsterer__
 <!-- Frankfurter Str. 21a
 55252 Wiesbaden -->
 Kontakt:
-Telefon: +49 157 87693889
-E-Mail: dennismuensterer@gmail.com
+- Telefon: +49 157 30967248
+- E-Mail: dennismuensterer@gmail.com
 
 ### Social Media
 Dieses Impressum gilt auch für die folgende Social-Media-Präsenzen und Onlineprofile:
 - [Facebook (dennismuensterer)](https://facebook.com/dennismuensterer)
 - [LinkedIn (dennismuensterer)](https://www.linkedin.com/in/dennismuensterer)
 - [Twitter (dnnsmnstrr)](https://twitter.com/dnnsmnstrr)
+- [Instagram (dnnsmnstrr)](https://www.instagram.com/dnnsmnstrr)
 
 ### Datenschutzerklärung (DSGVO)
 Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet. Es werden keine Cookies verwendet.

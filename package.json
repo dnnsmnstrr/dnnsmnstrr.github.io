@@ -1,0 +1,15 @@
+{
+  "name": "dnnsmnstrr.github.io",
+  "version": "1.0.0",
+  "description": "Website of Dennis Muensterer",
+  "main": "index.js",
+  "scripts": {
+    "start": "jekyll serve",
+    "build": "jekyll build",
+    "draft": "jekyll serve --drafts"
+  },
+  "repository": "https://github.com/dnnsmnstrr/dnnsmnstrr.github.io.git",
+  "author": "Dennis Muensterer <dennismuensterer@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
