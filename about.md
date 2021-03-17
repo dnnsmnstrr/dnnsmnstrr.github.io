@@ -1,8 +1,12 @@
-I'm me
+---
+layout: default
+---
+# About
 
-### Social Media:
+I'm me.
 
-- [Facebook](https://facebook.com/dennismuensterer)
-- [LinkedIn](https://www.linkedin.com/in/dennismuensterer)
-- [Twitter](https://twitter.com/dnnsmnstrr)
-- [DEV](https://dev.to/dnnsmnstrr)
+Check out my [life-timeline](https://dnnsmnstrr.github.io/life). It visualizes different events throughout my life on a weekly basis.
+
+You can also find me on various social media platforms:
+
+<script src="https://gist.github.com/dnnsmnstrr/09a2559a9a970de5e8e9e5c2eaf1183b.js"></script>

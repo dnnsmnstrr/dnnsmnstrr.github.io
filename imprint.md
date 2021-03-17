@@ -1,5 +1,5 @@
-## Impressum
-Angaben gemäß § 5 TMG
+## Imprint / Impressum
+Angaben gemäß [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)
 
 __Dennis Münsterer__
 <!-- Frankfurter Str. 21a
@@ -23,7 +23,7 @@ Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert od
 This website does not collect, store or process Personally Identifiable Information (PII). This website does not require the use of cookies.
 
 ### Verweis auf Dritte
-Diese Website wird auf [Github](https://www.github.com/) als [Github Pages](https://help.github.com/articles/what-is-github-pages/) gehostet. Die Github Global Privacy Practices sind [hier](https://help.github.com/articles/global-privacy-practices/) hinterlegt.
+Diese Website wird auf [Github](https://www.github.com/) mit [Github Pages](https://help.github.com/articles/what-is-github-pages/) gehostet. Die Github Global Privacy Practices sind [hier](https://help.github.com/articles/global-privacy-practices/) hinterlegt.
 
 ### Third Party Inclusion
 This website is hosted by [Github](https://www.github.com/) using [Github Pages](https://help.github.com/articles/what-is-github-pages/). The Github Global Privacy Practices are available [here](https://help.github.com/articles/global-privacy-practices/)
