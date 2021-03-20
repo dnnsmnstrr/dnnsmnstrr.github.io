@@ -5,7 +5,7 @@ layout: default
 
 I'm me.
 
-Check out my [life-timeline](https://dnnsmnstrr.github.io/life). It visualizes different events throughout my life on a weekly basis.
+Check out my [life-timeline](https://dnnsmnstrr.github.io/life). It visualizes different events throughout my life on a weekly basis. I also once made a [CV](./lebenslauf.html) using HTML.
 
 You can also find me on various social media platforms:
 
