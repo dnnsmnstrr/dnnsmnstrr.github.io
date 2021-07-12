@@ -1,23 +1,33 @@
-# [muensterer.xyz](https://muensterer.xyz)
+# [muensterer.tech](https://muensterer.tech)
 
-(formerly muensterer.tech & https://dnnsmnstrr.github.io)
+(formerly muensterer.xyz & https://dnnsmnstrr.github.io)
 
-# [subdomains.muensterer.tech](http://subdomains.muensterer.xyz)
-- [twitter](http://twitter.muensterer.tech), [facebook](http://facebook.muensterer.tech), [instagram](http://insta.muensterer.tech), [linkedin](http://in.muensterer.tech), [spotify](http://spotify.muensterer.tech), [universe](http://universe.muensterer.tech), [paypal](http://paypal.muensterer.tech), [docs](http://docs.muensterer.tech), [playlists](https://playlists.muensterer.xyz/)
+# [subdomains](http://subdomains.muensterer.tech)
+| Location     | Subdomain  | URL |
+| :------------- | :------------- | - |
+| Twitter  | `twitter`   | https://twitter.com/dnnsmnstrr |
+| Facebook  | `facebook`, `fb`   | https://www.facebook.com/dennismuensterer |
+| Instagram  | `insta`, `ig`   | https://www.instagram.com/dnnsmnstrr |
+| Spotify  | `spotify`   | https://open.spotify.com/user/dennismuensterer |
+| Playlists  | `playlists`   | https://dnnsmnstrr.onuniverse.com/playlists |
+| LinkedIn  | `in`   | https://www.linkedin.com/in/dennismuensterer/ |
+| PayPal  | `paypal`, `pay`   | https://www.paypal.me/dennismuensterer |
+| Universe  | `dennis`   | https://dnnsmnstrr.onuniverse.com |
+| Dotfiles  | `notes`   | https://dnnsmnstrr.github.io/dotfiles |
+| API  | `api`   | https://api.muensterer.tech/ |
+| Redirect  | `*`   | https://next.muensterer.tech/api/redirect/ |
 
 # project pages:
 
 - [my projects](https://dnnsmnstrr.github.io/projects)
 - [my dotfiles](https://dnnsmnstrr.github.io/dotfiles)
 - [my zettelkasten](https://dnnsmnstrr.github.io/zettelkasten)
-  - [`muensterer.xyz/zettelkasten`](https:/muensterer.tech/zettelkasten)
-  - [`docs.muensterer.xyz`](https://docs.muensterer.xyz)
+  - [`docs.muensterer.tech`](https://docs.muensterer.tech) - gitbook instance
 - [my life as a timeline](https://dnnsmnstrr.github.io/life)
 - [my universe landing page](https://dnnsmnstrr.onuniverse.com)
-  - [`dennis.muensterer.xyz`](http://dennis.muensterer.xyz/)
-  - [playlists](https://playlists.muensterer.xyz/)
-- [my personal api](https://next.muensterer.xyz/)
-  - [Social:](https://next.muensterer.xyz/api/social) [`https://next.muensterer.xyz/api/social/` + Social Network](https://next.muensterer.xyz/api/social/twitter)
-  - About me: [`https://next.muensterer.xyz/api/dennis`](https://next.muensterer.xyz/api/dennis)
-  - Life Events: [`https://next.muensterer.xyz/api/events`](https://next.muensterer.xyz/api/events)
-
+  - [`dennis.muensterer.tech`](http://dennis.muensterer.tech/)
+  - [playlists](http://muensterer.tech/playlists)
+- [my personal api](https://api.muensterer.tech/)
+  - [Social:](https://api.muensterer.tech/social) [`https://api.muensterer.tech/social/` + Social Network](https://next.muensterer.tech/api/social/twitter)
+  - About me: [`https://next.muensterer.tech/api/dennis`](https://next.muensterer.tech/api/dennis)
+  - Life Events: [`https://next.muensterer.tech/api/events`](https://next.muensterer.tech/api/events)
