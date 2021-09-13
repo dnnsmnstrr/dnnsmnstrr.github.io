@@ -7,7 +7,7 @@ on:
 jobs:
   pack:
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v2
 
@@ -34,3 +34,5 @@ jobs:
       - uses:  helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: 'src'
+          target_branch: 'gh-pages'
