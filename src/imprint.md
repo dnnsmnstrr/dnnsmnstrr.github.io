@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Imprint
 Angaben gemäß [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)
 

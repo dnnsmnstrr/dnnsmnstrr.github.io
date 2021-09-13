@@ -7,3 +7,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
+destination: public
+source: src
+exclude: ['node_modules']

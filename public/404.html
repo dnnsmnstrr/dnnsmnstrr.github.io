@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<title></title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
@@ -17,9 +17,17 @@
 			</nav>
 			<div class="container">
 
-			{{ content }}
+			<p>Page not found, attempting redirect…</p>
+
+<script>
+  window.location.replace('https://dnnsmnstrr.vercel.app/api/redirect' + window.location.pathname + '?noReturn=true')
+</script>
+
+
 
 			</div><!-- /.container -->
+      <div id="root"></div>
+      <script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
 			<footer>
 	    	<ul>
       		<li><a href="mailto:dennismuensterer@gmail.com">email</a></li>
