@@ -1,0 +1,36 @@
+name: Jekyll with Webpack
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  pack:
+    runs-on: ubuntu-16.04
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-node@v1
+
+    - name: Build
+      run: |
+        npm install
+        npx webpack
+
+  jekyll:
+    runs-on: ubuntu-16.04
+      steps:
+      - uses: actions/checkout@v2
+
+      # Use GitHub Actions' cache to shorten build times and decrease load on servers
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+     - uses:  helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
