@@ -2,7 +2,7 @@ module.exports = {
   mode: 'development',
   entry: "./webpack/entry.js",
   output: {
-    path: __dirname + "/src/assets/javascripts/",
+    path: __dirname + "/src/assets/js/",
     filename: "bundle.js"
   },
   module: {
