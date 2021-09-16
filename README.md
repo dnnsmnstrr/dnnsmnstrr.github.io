@@ -2,6 +2,10 @@
 
 (formerly muensterer.xyz & https://dnnsmnstrr.github.io)
 
+This site uses [Jekyll](https://jekyllrb.com/docs/) and is hosted on Github Pages.
+
+A search bar can be accessed with the keyboard shortcut <kbd>cmd</kbd> + <kbd>k</kbd>
+
 # [subdomains](http://subdomains.muensterer.tech)
 | Location     | Subdomain  | URL |
 | :------------- | :------------- | - |
