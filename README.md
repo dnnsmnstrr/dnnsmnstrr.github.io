@@ -1,12 +1,15 @@
-# [muensterer.tech](https://muensterer.tech)
+# [muensterer.codes](https://muensterer.codes)
 
-(formerly muensterer.xyz & https://dnnsmnstrr.github.io)
+(formerly muensterer.xyz & muensterer.tech)
 
 This site uses [Jekyll](https://jekyllrb.com/docs/) and is hosted on Github Pages.
 
 A search bar can be accessed with the keyboard shortcut <kbd>cmd</kbd> + <kbd>k</kbd>
 
-# [subdomains](http://subdomains.muensterer.tech)
+# [subdomains](http://subdomains.muensterer.codes)
+
+Whenever possible, these subdomain redirects are set up to allow for easy access without having to remember the URL.
+
 | Location     | Subdomain  | URL |
 | :------------- | :------------- | - |
 | Twitter  | `twitter`   | https://twitter.com/dnnsmnstrr |
@@ -18,20 +21,16 @@ A search bar can be accessed with the keyboard shortcut <kbd>cmd</kbd> + <kbd>k<
 | PayPal  | `paypal`, `pay`   | https://www.paypal.me/dennismuensterer |
 | Universe  | `dennis`   | https://dnnsmnstrr.onuniverse.com |
 | Dotfiles  | `notes`   | https://dnnsmnstrr.github.io/dotfiles |
-| API  | `api`   | https://api.muensterer.tech/ |
-| Redirect  | `*`   | https://next.muensterer.tech/api/redirect/ |
 
 # project pages:
 
 - [my projects](https://dnnsmnstrr.github.io/projects)
 - [my dotfiles](https://dnnsmnstrr.github.io/dotfiles)
 - [my zettelkasten](https://dnnsmnstrr.github.io/zettelkasten)
-  - [`docs.muensterer.tech`](https://docs.muensterer.tech) - gitbook instance
+  - [`docs.muensterer.codes`](https://docs.muensterer.codes) - gitbook instance
 - [my life as a timeline](https://dnnsmnstrr.github.io/life)
 - [my universe landing page](https://dnnsmnstrr.onuniverse.com)
-  - [`dennis.muensterer.tech`](http://dennis.muensterer.tech/)
-  - [playlists](http://muensterer.tech/playlists)
-- [my personal api](https://api.muensterer.tech/)
-  - [Social:](https://api.muensterer.tech/social) [`https://api.muensterer.tech/social/` + Social Network](https://next.muensterer.tech/api/social/twitter)
-  - About me: [`https://next.muensterer.tech/api/dennis`](https://next.muensterer.tech/api/dennis)
-  - Life Events: [`https://next.muensterer.tech/api/events`](https://next.muensterer.tech/api/events)
+  - [`dennis.muensterer.codes`](http://dennis.muensterer.codes/)
+  - [playlists](http://dnnsmnstrr.onuniverse.com/playlists)
+- [my personal api](https://api.muensterer.codes/)
+  - [Social:](https://api.muensterer.codes/social) [`https://api.muensterer.codes/social/` + Social Network](https://next.muensterer.codes/api/social/twitter)
