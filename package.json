@@ -4,7 +4,7 @@
   "description": "Website of Dennis Muensterer",
   "main": "index.js",
   "scripts": {
-    "preinstall": "bundle install",
+    "gem": "bundle install",
     "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
     "dev": "bundle exec jekyll serve --livereload",
     "build": "jekyll build",
