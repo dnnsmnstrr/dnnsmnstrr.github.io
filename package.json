@@ -17,7 +17,7 @@
   "dependencies": {
     "@reach/portal": "^0.16.0",
     "fast-equals": "^2.0.3",
-    "kbar": "^0.1.0-beta.1",
+    "kbar": "^0.1.0-beta.36",
     "match-sorter": "^6.3.0"
   },
   "devDependencies": {
