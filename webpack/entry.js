@@ -52,7 +52,16 @@ const actions = [
     keywords: 'email',
     perform: goTo`contact`
   },
-  { id: 'telegram' },
+  {
+    id: 'spotify',
+    shortcut: ['s', 'p'],
+    keywords: 'music, playlist, song, artist, album, track, listen, listen to, play, play music, play song, play artist, play album, play track, listen to music, listen to song, listen to artist, listen to album, listen to track, listen to playlist',
+    section: 'Links',
+  },
+  { id: 'telegram', section: 'Links' },
+  { id: 'linkedin', section: 'Links' },
+  { id: 'twitter', section: 'Links' },
+  { id: 'instagram', section: 'Links' },
   // Utilities
   {
     id: 'help',
@@ -94,6 +103,8 @@ const actions = [
   {
     id: 'reload',
     perform: () => window.location.reload(),
+    shortcut: ['r', 'l'],
+    keywords: 'refresh, update',
     section: 'Navigation'
   }
 ].map(expandAction)
@@ -102,7 +113,7 @@ actions.push({
   id: 'easter-egg',
   name: ' ',
   keywords: 'hello, hidden, easter, egg',
-  perform: () => alert('Hello World!')
+  perform: () => alert(getMessage())
 })
 
 const searchStyle = {
@@ -186,7 +197,7 @@ const Button = ({ children, onClick }) => {
 }
 class App extends Component {
   render () {
-    console.info(getMessage())
+    console.info(getMessage(true))
     return (
       <KBarProvider actions={actions} options={{
         disableScrollbarManagement: true,

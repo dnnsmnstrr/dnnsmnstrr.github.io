@@ -4,10 +4,14 @@
   "description": "Website of Dennis Muensterer",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf ./_site",
+    "build": "npm run clean && && npx webpack && npx eleventy",
+    "webpack": "npx webpack",
+    "dev": "npx webpack --watch",
+    "start": "npx eleventy --serve --watch",
     "gem": "bundle install",
-    "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload --incremental",
-    "dev": "bundle exec jekyll serve --livereload",
-    "build": "jekyll build",
+    "jekyll:dev": "bundle exec jekyll serve --livereload",
+    "jekyll:build": "jekyll build",
     "draft": "jekyll serve --drafts"
   },
   "repository": "https://github.com/dnnsmnstrr/dnnsmnstrr.github.io.git",
@@ -15,12 +19,14 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@11ty/is-land": "^3.0.1",
     "@reach/portal": "^0.16.0",
     "fast-equals": "^2.0.3",
-    "kbar": "^0.1.0-beta.36",
+    "kbar": "^0.1.0-beta.40",
     "match-sorter": "^6.3.0"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-es2015": "^7.0.0-beta.53",
