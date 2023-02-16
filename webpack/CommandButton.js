@@ -12,7 +12,7 @@ const CommandButton = () => {
       style={{
         marginLeft: 8,
         padding: '8px',
-        background: isHovered ? '#ccc' : '#ddd',
+        background: '#ddd',
         color: '#444',
         fontSize: 20,
         border: 'none',

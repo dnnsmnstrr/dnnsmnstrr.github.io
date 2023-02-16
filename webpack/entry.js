@@ -8,124 +8,10 @@ import {
   KBarSearch,
   KBarResults,
   useMatches,
-  useKBar
  } from 'kbar'
-import { getMessage, toCapitalCase } from './helper'
+import { getMessage, prefersDarkScheme } from './helper'
 import CommandButton from './CommandButton'
-const goTo = (pathname) => () => (window.location.pathname = pathname)
-const toId = (id) => ({ id })
-const shortcuts = []
-const expandAction = ({ id, name, shortcut, keywords, perform, ...restAction }) => {
-
-  if (shortcut && !Array.isArray(shortcut)) {
-    shortcut = [shortcut]
-  }
-
-  return {
-    id,
-    shortcut,
-    keywords,
-    name: name || toCapitalCase(id),
-    perform: perform || goTo(id),
-    ...restAction
-  }
-}
-
-const pages = ['about', 'projects', 'work'].map(toId)
-const actions = [
-  ...pages,
-    {
-    id: 'zettelkasten',
-    shortcut: ['z', 'k'],
-    keywords: 'notes, zettel, slipbox, knowledge, wiki'
-  },
-  {
-    id: 'github',
-    shortcut: ['g', 'h'],
-    keywords: 'github, git, source, code, repository',
-    perform: goTo`github`
-  },
-  // Contact
-  {
-    id: 'contact',
-    shortcut: '@',
-    keywords: 'email',
-    perform: goTo`contact`
-  },
-  {
-    id: 'spotify',
-    shortcut: ['s', 'p'],
-    keywords: 'music, playlist, song, artist, album, track, listen, listen to, play, play music, play song, play artist, play album, play track, listen to music, listen to song, listen to artist, listen to album, listen to track, listen to playlist',
-    section: 'Links',
-  },
-  { id: 'telegram', section: 'Links' },
-  { id: 'linkedin', section: 'Links' },
-  { id: 'twitter', section: 'Links' },
-  { id: 'instagram', section: 'Links' },
-  // Utilities
-  {
-    id: 'help',
-    shortcut: '?',
-    keywords: 'help, ls, list',
-    perform: goTo`help`
-  },
-  {
-    id: 'status',
-    name: 'Status',
-    shortcut: ['u', 't'],
-    keywords: 'status s uptime',
-    section: 'Utilities',
-    perform: goTo`uptime`
-  },
-  {
-    id: 'sourcecode',
-    name: 'Source Code',
-    shortcut: ['s', 'c'],
-    keywords: 'source code s',
-    section: 'Utilities',
-    perform: () => window.open('https://github.com/dnnsmnstrr/dnnsmnstrr.github.io/', '_blank'),
-  },
-  // Navigation
-  {
-    id: 'back',
-    name: 'Go Back',
-    keywords: 'previous, last, history',
-    perform: () => window.history.back(),
-    section: 'Navigation'
-  },
-  {
-    id: 'forward',
-    name: 'Go Forward',
-    keywords: 'next',
-    perform: () => window.history.forward(),
-    section: 'Navigation'
-  },
-  {
-    id: 'reload',
-    perform: () => window.location.reload(),
-    shortcut: ['r', 'l'],
-    keywords: 'refresh, update',
-    section: 'Navigation'
-  }
-].map(expandAction)
-
-actions.push({
-  id: 'easter-egg',
-  name: ' ',
-  keywords: 'hello, hidden, easter, egg',
-  perform: () => alert(getMessage())
-})
-
-const searchStyle = {
-  padding: '12px 16px',
-  fontSize: '16px',
-  width: '100%',
-  outline: 'none',
-  border: 'none',
-  background: 'rgba(255, 255, 255, 0.98)',
-  color: 'var(--foreground)',
-  borderBottom: '0.5px solid #f0f0f0',
-};
+import actions from './actions'
 
 const animatorStyle = {
   maxWidth: '600px',
@@ -146,13 +32,16 @@ function RenderResults() {
       items={results}
       onRender={({ item, active }) => {
         const isSection = typeof item === 'string';
+        const backgroundColor = prefersDarkScheme.matches ? '#000' : '#fff';
+        const activeColor = prefersDarkScheme.matches ? '#333' : '#eee';
+        if (item.hidden) return <div />;
         if (isSection) {
           return (
             <div
               style={{
                 fontWeight: 'bold',
                 padding: '10px',
-                background: active ? '#eee' : '#fff',
+                background: active ? activeColor : backgroundColor,
               }}
             >
               {item}
@@ -163,7 +52,7 @@ function RenderResults() {
           <div
             style={{
               padding: '10px',
-              background: active ? '#eee' : '#fff',
+              background: active ? activeColor : backgroundColor,
             }}
           >
             {item.name}
@@ -176,8 +65,26 @@ function RenderResults() {
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isDarkMode: prefersDarkScheme.matches,
+    };
+  }
   render () {
     console.info(getMessage(true))
+
+    const isDarkMode = prefersDarkScheme.matches;
+    const searchStyle = {
+      padding: '12px 16px',
+      fontSize: '16px',
+      width: '100%',
+      outline: 'none',
+      border: 'none',
+      background: isDarkMode ? '#000': 'rgba(255, 255, 255, 0.98)',
+      color: 'var(--foreground)',
+      borderBottom: '0.5px solid #f0f0f0',
+    };
     return (
       <KBarProvider actions={actions} options={{
         disableScrollbarManagement: true,

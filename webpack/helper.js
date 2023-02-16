@@ -25,3 +25,5 @@ export function getMessage(console = false) {
 }
 
 export const toCapitalCase = (string) => string.charAt(0).toUpperCase() + string.slice(1)
+
+export const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
