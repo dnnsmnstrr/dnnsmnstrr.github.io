@@ -97,21 +97,6 @@ const actions = [
     keywords: 'refresh, update',
     section: 'Navigation'
   },
-  {
-    id: 'dark-mode',
-    name: 'Toggle Dark Mode',
-    shortcut: ['d', 'm'],
-    keywords: 'dark mode, toggle dark mode, dark theme, toggle dark theme',
-    perform: () => {
-
-      console.log('prefersDarkScheme', prefersDarkScheme)
-      if (prefersDarkScheme.matches) {
-        document.body.classList.toggle("light-theme");
-      } else {
-        document.body.classList.toggle("dark-theme");
-      }
-    }
-  }
 ].map(expandAction)
 
 actions.push({
