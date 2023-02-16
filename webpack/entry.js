@@ -11,7 +11,7 @@ import {
   useKBar
  } from 'kbar'
 import { getMessage, toCapitalCase } from './helper'
-
+import CommandButton from './CommandButton'
 const goTo = (pathname) => () => (window.location.pathname = pathname)
 const toId = (id) => ({ id })
 const shortcuts = []
@@ -174,27 +174,7 @@ function RenderResults() {
   );
 }
 
-const Button = ({ children, onClick }) => {
-  const { query } = useKBar();
-  return (
-    <button
-      onClick={() => query.toggle()}
-      style={{
-        marginLeft: 8,
-        padding: '8px',
-        background: '#ddd',
-        color: '#444',
-        fontSize: 20,
-        border: 'none',
-        borderRadius: '8px',
-        outline: 'none',
-        cursor: 'pointer',
-      }}
-    >
-      ⌘k
-    </button>
-  )
-}
+
 class App extends Component {
   render () {
     console.info(getMessage(true))
@@ -210,7 +190,7 @@ class App extends Component {
             </KBarAnimator>
           </KBarPositioner>
         </KBarPortal>
-        <Button />
+        <CommandButton />
       </KBarProvider>
     )
   }
