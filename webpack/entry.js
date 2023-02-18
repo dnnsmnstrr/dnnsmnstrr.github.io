@@ -75,8 +75,12 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const theme = localStorage.getItem("theme");
-    console.log('theme', theme)
+    // Initialize theme
+    let theme = localStorage.getItem("theme");
+    if (!theme) {
+      theme = prefersDarkScheme.matches ? "dark" : "light";
+      localStorage.setItem("theme", theme);
+    }
     this.setState({ isDarkMode: theme === "dark" });
     if (theme === 'light' && !document.body.classList.contains("light-theme")) {
       document.body.classList.toggle("light-theme");
@@ -84,6 +88,7 @@ class App extends Component {
       document.body.classList.toggle("dark-theme");
     }
   }
+
   render () {
     console.info(getMessage(true))
 
