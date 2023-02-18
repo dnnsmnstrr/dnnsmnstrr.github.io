@@ -17,8 +17,8 @@ const expandAction = ({ id, name, shortcut, keywords, perform, ...restAction }) 
   }
 }
 
-const toId = (id) => ({ id })
-const pages = ['about', 'projects', 'work'].map(toId)
+const toPageAction = (id) => ({ id, shortcut: ['g', id[0]] })
+const pages = ['about', 'projects', 'work', 'notes'].map(toPageAction)
 
 const actions = [
   ...pages,
