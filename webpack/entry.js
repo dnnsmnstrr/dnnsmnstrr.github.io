@@ -80,6 +80,8 @@ class App extends Component {
     this.setState({ isDarkMode: theme === "dark" });
     if (theme === 'light' && !document.body.classList.contains("light-theme")) {
       document.body.classList.toggle("light-theme");
+    } else {
+      document.body.classList.toggle("dark-theme");
     }
   }
   render () {
@@ -98,6 +100,7 @@ class App extends Component {
 
     const onToggleDarkMode = (state) => {
       document.body.classList.toggle("light-theme");
+      document.body.classList.toggle("dark-theme");
       localStorage.setItem("theme", this.state.isDarkMode ? "light" : "dark");
       this.setState({ isDarkMode: !this.state.isDarkMode });
     };
