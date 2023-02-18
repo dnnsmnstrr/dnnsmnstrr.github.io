@@ -68,6 +68,11 @@ const actions = [
     perform: goTo`uptime`
   },
   {
+    id: 'imprint',
+    shortcut: ['i', 'm'],
+    keywords: 'imprint, legal, privacy, terms, conditions, disclaimer, data protection, data privacy, data protection policy, data privacy policy, privacy policy, terms and conditions, legal notice, impressum',
+  },
+  {
     id: 'sourcecode',
     name: 'Source Code',
     shortcut: ['s', 'c'],
@@ -76,6 +81,13 @@ const actions = [
     perform: () => window.open('https://github.com/dnnsmnstrr/dnnsmnstrr.github.io/', '_blank'),
   },
   // Navigation
+  {
+    id: 'home',
+    shortcut: ['g', '/'],
+    keywords: 'home, index, main, start, beginning, first, landing, root',
+    perform: goTo`/`,
+    section: 'Navigation'
+  },
   {
     id: 'back',
     name: 'Go Back',
