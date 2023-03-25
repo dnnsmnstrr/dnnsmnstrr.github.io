@@ -122,14 +122,7 @@ class App extends Component {
       }
     }
 
-    const markpromptAction = {
-      id: 'markprompt',
-      name: 'Query notes',
-      shortcut: ['m', 'p'],
-      keywords: 'markprompt, query notes, chatbot',
-      perform: () => window.location.pathname = 'chat'
-    }
-    const extendedActions = [...actions, darkModeAction, markpromptAction]
+    const extendedActions = [...actions, darkModeAction]
 
     const showChat = window.location.pathname.includes('chat')
     return (

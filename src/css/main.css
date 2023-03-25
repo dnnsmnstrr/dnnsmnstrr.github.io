@@ -2,6 +2,11 @@ body {
   margin: 60px auto !important;
   width: 70%;
 }
+@media screen and (max-width: 600px) {
+  body {
+    width: 90%;
+  }
+}
 
 body.light-theme {
   background-color: #ffffff;
@@ -60,13 +65,15 @@ ul.posts li {
 }
 
 .chat {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #root>div>div.h-12.border-b.border-neutral-900>form>input {
   background-color: #ffffff;
   color: black;
-  width: 100%;
+  width: 360px;
   padding: 10px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }

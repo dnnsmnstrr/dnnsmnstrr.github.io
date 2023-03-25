@@ -89,6 +89,13 @@ const actions = [
     section: 'Navigation'
   },
   {
+    id: 'markprompt',
+    name: 'Chat',
+    shortcut: ['g', 'c'],
+    keywords: 'markprompt, query notes, chatbot',
+    perform: goTo`chat`
+  },
+  {
     id: 'back',
     name: 'Go Back',
     keywords: 'previous, last, history',
