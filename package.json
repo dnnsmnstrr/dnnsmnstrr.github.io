@@ -23,6 +23,7 @@
     "@reach/portal": "^0.16.0",
     "fast-equals": "^2.0.3",
     "kbar": "^0.1.0-beta.40",
+    "markprompt": "^0.1.5",
     "match-sorter": "^6.3.0"
   },
   "devDependencies": {

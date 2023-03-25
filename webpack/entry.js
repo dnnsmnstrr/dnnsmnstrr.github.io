@@ -9,6 +9,7 @@ import {
   KBarResults,
   useMatches,
  } from 'kbar'
+import { Markprompt } from "markprompt"
 import { getMessage, prefersDarkScheme } from './helper'
 import CommandButton from './CommandButton'
 import actions from './actions'
@@ -120,10 +121,21 @@ class App extends Component {
         // Then save the choice in localStorage
       }
     }
-    const extendedActions = [...actions, darkModeAction]
+
+    const markpromptAction = {
+      id: 'markprompt',
+      name: 'Query notes',
+      shortcut: ['m', 'p'],
+      keywords: 'markprompt, query notes, chatbot',
+      perform: () => window.location.pathname = 'chat'
+    }
+    const extendedActions = [...actions, darkModeAction, markpromptAction]
+
+    const showChat = window.location.pathname.includes('chat')
     return (
       <KBarProvider actions={extendedActions} options={{
         disableScrollbarManagement: true,
+        showing: true,
       }}>
         <KBarPortal>
           <KBarPositioner>
@@ -133,7 +145,7 @@ class App extends Component {
             </KBarAnimator>
           </KBarPositioner>
         </KBarPortal>
-        <CommandButton />
+        {showChat ? <Markprompt projectKey='7GfAooKPITQZN05Sz8ZAV20OtADTW3uP' /> : <CommandButton />}
       </KBarProvider>
     )
   }
