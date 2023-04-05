@@ -5,9 +5,7 @@ layout: default
 # Imprint
 Angaben gemäß [§ 5 TMG](https://www.gesetze-im-internet.de/tmg/__5.html)
 
-__Dennis Münsterer__
-<!-- Frankfurter Str. 21a
-55252 Wiesbaden -->
+__Dennis Münsterer__, Fachinformatiker für Anwendungsentwicklung (IHK Wiesbaden, [alte Prüfungsordnung](https://www.ihk.de/wiesbaden/bildung/ausbildung/ausbildungspruefungen/pruefung-neuordnung-it-berufe-55804))
 
 Kontakt:
 - Telefon: +49 157 30967248
@@ -30,10 +28,10 @@ Auf dieser Webseite werden keine personenbezogenen Daten erhoben, gespeichert od
 This website does not collect, store or process Personally Identifiable Information (PII). This website does not require the use of cookies.
 
 ## Verweis auf Dritte
-Diese Website wird auf [Github](https://www.github.com/) mit [Github Pages](https://help.github.com/articles/what-is-github-pages/) gehostet. Die Github Global Privacy Practices sind [hier](https://help.github.com/articles/global-privacy-practices/) hinterlegt.
+Diese Website wird auf [GitHub](https://www.github.com/) mit [GitHub Pages](https://help.github.com/articles/what-is-github-pages/) gehostet. Die GitHub Datenschutzerklärung ist [hier](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement) hinterlegt.
 
 ## Third Party Inclusion
-This website is hosted by [Github](https://www.github.com/) using [Github Pages](https://help.github.com/articles/what-is-github-pages/). The Github Global Privacy Practices are available [here](https://help.github.com/articles/global-privacy-practices/)
+This website is hosted by [GitHub](https://www.github.com/) using [GitHub Pages](https://help.github.com/articles/what-is-github-pages/). The GitHub Privacy Statement can be found [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 <br />
 
