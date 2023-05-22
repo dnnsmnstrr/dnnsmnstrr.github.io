@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import {
   KBarProvider,
   KBarPortal,
@@ -9,7 +9,8 @@ import {
   KBarResults,
   useMatches,
  } from 'kbar'
-import { Markprompt } from "markprompt"
+import Markprompt from './Markprompt'
+import { Markprompt as MarkpromptOld } from 'markprompt'
 import { getMessage, prefersDarkScheme } from './helper'
 import CommandButton from './CommandButton'
 import actions from './actions'
@@ -138,10 +139,14 @@ class App extends Component {
             </KBarAnimator>
           </KBarPositioner>
         </KBarPortal>
-        {showChat ? <Markprompt projectKey='7GfAooKPITQZN05Sz8ZAV20OtADTW3uP' /> : <CommandButton />}
+        <Markprompt dark={this.state.isDarkMode} />
+        {showChat ? <MarkpromptOld projectKey='7GfAooKPITQZN05Sz8ZAV20OtADTW3uP' /> : <CommandButton />}
+
       </KBarProvider>
     )
   }
 }
 
-render(<App />, document.getElementById('root'))
+const container = document.getElementById('root')
+const root = createRoot(container)
+root.render(<App />)

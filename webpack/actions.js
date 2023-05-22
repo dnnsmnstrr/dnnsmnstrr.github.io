@@ -51,6 +51,7 @@ const actions = [
   { id: 'linkedin', section: 'Links', shortcut: ['g', 'l'] },
   { id: 'twitter', section: 'Links', shortcut: ['g', 't'] },
   { id: 'instagram', section: 'Links', shortcut: ['g', 'i'] },
+  { id: 'insta', section: 'Links', shortcut: ['i', 'g'], hidden: true },
   { id: 'google', section: 'Links', shortcut: ['g', 'g'], hidden: true },
   // Utilities
   {
@@ -93,7 +94,10 @@ const actions = [
     name: 'Chat',
     shortcut: ['g', 'c'],
     keywords: 'markprompt, query notes, chatbot',
-    perform: goTo`chat`
+    perform: () => {
+      const chatButton = document.querySelector("#root > button.MarkpromptButton")
+      chatButton.click()
+    }
   },
   {
     id: 'back',

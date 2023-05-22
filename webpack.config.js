@@ -8,6 +8,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
         test: /\.jsx?$/,
         use: [
           {loader: "babel-loader"}, // "babel-loader" is also a legal name to reference
