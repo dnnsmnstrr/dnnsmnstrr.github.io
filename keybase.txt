@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dnnsmnstrr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dnnsmnstrr.github.io
+  * I am dnnsmnstrr (https://keybase.io/dnnsmnstrr) on keybase.
+  * I have a public key ASDEgVPJV5XEMO4pI8tT6Yo8eUb7nr7OnJONaqZMERkvnAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c48153c95795c430ee2923cb53e98a3c7946fb9ebece9c938d6aa64c11192f9c0a",
+      "host": "keybase.io",
+      "kid": "0120c48153c95795c430ee2923cb53e98a3c7946fb9ebece9c938d6aa64c11192f9c0a",
+      "uid": "4f76929bfd8c53563669b8688067e519",
+      "username": "dnnsmnstrr"
+    },
+    "merkle_root": {
+      "ctime": 1563003868,
+      "hash": "d4be91f6652943ecbb2f6e2b2da94cda82eb85159adf6d19554948557522aed3da046b2d05b77616bb074b46c51c81716ec9baec8d4fdddbe1b87e3aa8e1e308",
+      "hash_meta": "17c93c80ef59935ec428bdc4215a95c1cbf32b68272d497f4848838f66acd849",
+      "seqno": 5753722
+    },
+    "service": {
+      "entropy": "RCTOAcK+tZMmnFjnDyKj7hN5",
+      "hostname": "dnnsmnstrr.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563003902,
+  "expire_in": 504576000,
+  "prev": "887e81d24fd867a69048ee57bcebef61928c86c90e3d5286fdfe48e305224f59",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxIFTyVeVxDDuKSPLU+mKPHlG+56+zpyTjWqmTBEZL5wKp3BheWxvYWTESpcCDsQgiH6B0k/YZ6aQSO5XvOvvYZKMhskOPVKG/f5I4wUiT1nEIIAv4pyvVRoNG1pZJdse7hk2inbYMdwTd+BJvDw1ofQ8AgHCo3NpZ8RAq0d4JdQZQi8wYJrYlH/PdR2xLtd+vctyPE0BLYCB+cC7+mA7MD5WdgPh3GeBxePY0ZtPzjJypuJfmELn3jFRA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMdZr322kiBaseURu9gcKsM9CYXkeGf8goPkflE9w0TBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dnnsmnstrr
+
+==================================================================
