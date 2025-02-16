@@ -1,36 +1,17 @@
-# [muensterer.codes](https://muensterer.codes)
+# [dnnsmnstrr.github.io](https://dnnsmnstrr.github.io)
 
-(formerly muensterer.xyz & muensterer.tech)
+> previously muensterer.xyz, muensterer.codes or muensterer.lol
 
-This site uses [Jekyll](https://jekyllrb.com/docs/) and is hosted on Github Pages.
+This was my main personal website before switching to SvelteKit and Vercel for hosting. My current website can be found at [muensterer.tech](https://muensterer.tech) and its source code is [here](https://github.com/dnnsmnstrr/muenstererOS)
 
-A search bar can be accessed with the keyboard shortcut <kbd>cmd</kbd> + <kbd>k</kbd>
 
-# [subdomains](http://subdomains.muensterer.codes)
-
-Whenever possible, these subdomain redirects are set up to allow for easy access without having to remember the URL.
-
-| Location     | Subdomain  | URL |
-| :------------- | :------------- | - |
-| Twitter  | `twitter`   | https://twitter.com/dnnsmnstrr |
-| Facebook  | `facebook`, `fb`   | https://www.facebook.com/dennismuensterer |
-| Instagram  | `insta`, `ig`   | https://www.instagram.com/dnnsmnstrr |
-| Spotify  | `spotify`   | https://open.spotify.com/user/dennismuensterer |
-| Playlists  | `playlists`   | https://dnnsmnstrr.onuniverse.com/playlists |
-| LinkedIn  | `in`   | https://www.linkedin.com/in/dennismuensterer/ |
-| PayPal  | `paypal`, `pay`   | https://www.paypal.me/dennismuensterer |
-| Universe  | `dennis`   | https://dnnsmnstrr.onuniverse.com |
-| Dotfiles  | `notes`   | https://dnnsmnstrr.github.io/dotfiles |
-
-# project pages:
+## Pages/Projects:
 
 - [my projects](https://dnnsmnstrr.github.io/projects)
 - [my dotfiles](https://dnnsmnstrr.github.io/dotfiles)
 - [my zettelkasten](https://dnnsmnstrr.github.io/zettelkasten)
-  - [`docs.muensterer.codes`](https://docs.muensterer.codes) - gitbook instance
 - [my life as a timeline](https://dnnsmnstrr.github.io/life)
 - [my universe landing page](https://dnnsmnstrr.onuniverse.com)
-  - [`dennis.muensterer.codes`](http://dennis.muensterer.codes/)
   - [playlists](http://dnnsmnstrr.onuniverse.com/playlists)
-- [my personal api](https://api.muensterer.codes/)
-  - [Social:](https://api.muensterer.codes/social) [`https://api.muensterer.codes/social/` + Social Network](https://next.muensterer.codes/api/social/twitter)
+- [my personal api](https://dnnsmnstrr.vercel.app/)
+  - [Social:](https://dnnsmnstrr.vercel.app/api/social) `https://dnnsmnstrr.vercel.app/api/social/` + Social Network
