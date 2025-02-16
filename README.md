@@ -2,7 +2,9 @@
 
 > previously muensterer.xyz, muensterer.codes or muensterer.lol
 
-This was my main personal website before switching to SvelteKit and Vercel for hosting. My current website can be found at [muensterer.tech](https://muensterer.tech) and its source code is [here](https://github.com/dnnsmnstrr/muenstererOS)
+This was my main personal website before switching to SvelteKit and Vercel for hosting.  
+
+My current website can be found at [muensterer.tech](https://muensterer.tech) and its source code is [here](https://github.com/dnnsmnstrr/muenstererOS)
 
 
 ## Pages/Projects:
